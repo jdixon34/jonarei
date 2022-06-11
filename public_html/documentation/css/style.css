@@ -1,0 +1,91 @@
+#body {
+    background-color: #02ab94;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+}
+
+#header img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 {
+    color: #00ddff;
+    font-weight: bold;
+}
+
+#headerImage {
+    object-fit: cover;
+    width: 100vw;
+}
+
+#showcase .vidItem {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    iframe {
+        max-width: 80%;
+    }
+}
+
+.vidDesc {
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    max-width: 80%;
+}
+
+#events {
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+
+#events col {
+    display: flex;
+}
+
+#events .row {
+    margin: 1rem 0;
+}
+
+.eventImage,
+.eventDesc {
+    flex-shrink: 1;
+}
+
+#email-bio {
+    margin-top: 3rem
+}
+
+.form-item {
+    margin: 1rem;
+}
+
+#submitButton {
+    border: none;
+
+}
+
+#contactForm,
+#biography {
+    max-width: 60%;
+}
+
+footer {
+    color: rgb(100, 100, 100);
+    background-color: rgb(0, 0, 0, 0.9);
+    margin: 0;
+    text-align: center;
+}
