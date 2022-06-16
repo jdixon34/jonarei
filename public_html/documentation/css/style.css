@@ -1,5 +1,7 @@
 #body {
-    background-color: #02ab94;
+    padding: 0;
+    margin: 0;
+    background-color: #0a0a0a;
 }
 
 .title {
@@ -7,31 +9,34 @@
     color: white;
 }
 
-#header {
+#navbar {
+    background-color: #0a0a0a;
+    opacity: 0.5;
+}
+
+#splash {
     margin: 0;
     padding: 0;
-    background: url("../img/splash3.jpg") no-repeat center center;
+    background: url("../img/splash4.jpg") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
-    min-width: 100vh;
 
 }
 
-#header img {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
+/*#header img {*/
+/*    max-width: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
-#header h1 {
-    color: #00ddff;
-    font-weight: bold;
-}
+/*#header h1 {*/
+/*    font-weight: bold;*/
+/*}*/
 
-#headerImage {
-    object-fit: cover;
-    width: 100vw;
-}
+/*#headerImage {*/
+/*    object-fit: cover;*/
+/*    width: 100vw;*/
+/*}*/
 
 #showcase .vidItem {
     margin-top: 3rem;
