@@ -14,12 +14,17 @@
     opacity: 0.5;
 }
 
+.navColumns {
+    width: 100%;
+}
+
 #splash {
     margin: 0;
     padding: 0;
     background: url("../img/splash4.jpg") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
+    object-fit: cover;
 
 }
 
