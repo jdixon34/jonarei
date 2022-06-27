@@ -18,6 +18,32 @@
     width: 100%;
 }
 
+.social-menu-container {
+    padding: 0;
+    margin: 0;
+}
+
+.social-menu ul li {
+    list-style: none;
+    font-size: 30px;
+    margin: 0 15px 0 0;
+}
+
+.social-menu ul li:hover {
+    opacity: 0.9;
+    color: #0a0a0a;
+    border: none;
+}
+
+.social-menu ul li:active {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
 #splash {
     margin: 0;
     padding: 0;
