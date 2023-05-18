@@ -6,6 +6,7 @@
 .title {
     font-family: 'MuseoModerno', cursive;
     color: white;
+    margin: 0;
 }
 
 #navbar {
@@ -26,6 +27,7 @@
     list-style: none;
     font-size: 30px;
     margin: 0 15px 0 0;
+    padding: 0;
 }
 
 .social-menu ul li:hover {
@@ -37,8 +39,7 @@
 .social-menu ul li:active {
     border: none;
     background: none;
-    padding: 0;
-    margin: 0;
+
 
 
 }
