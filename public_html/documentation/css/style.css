@@ -3,15 +3,32 @@
     margin: 0;
 }
 
+.navColumns .col {
+    height: 100%;
+}
+
 .title {
-    font-family: 'MuseoModerno', cursive;
-    color: white;
+    max-height: 100%; /* Update to max-height: 100% */
     margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.title img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%; /* prevent the image from exceeding the container's height */
+    object-fit: contain; /* maintain the aspect ratio and fit the entire image within the container */
+    display: block;
 }
 
 #navbar {
     background-color: black;
     opacity: 0.9;
+    min-height: 3rem;
 }
 
 .navColumns {
