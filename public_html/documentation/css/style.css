@@ -1,7 +1,8 @@
 #body {
+    color: white;
     padding: 0;
     margin: 0;
-    background-color: #292929;
+    background-image: url('../img/JonaRei 5-27-24-31.jpg');
 }
 
 .title, body {
@@ -73,6 +74,31 @@
     text-align: center;
 }
 
+/* Parallax container for the showcase section */
+.showcase-parallax {
+    position: relative;
+    height: auto; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.showcase-parallax .parallax-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg-soundboard-1.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.showcase-parallax .container {
+    position: relative;
+    z-index: 2;
+}
+
 iframe {
     aspect-ratio: 16 / 9;
     width: 100%;
@@ -93,7 +119,7 @@ iframe {
 #events {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    margin-top: 3rem;
+    margin-top:0;
     padding: 3rem 0;
 }
 
@@ -102,7 +128,7 @@ iframe {
 }
 
 #events .row {
-    margin: 1rem 0;
+    margin: 0;
 }
 
 .eventImage,
